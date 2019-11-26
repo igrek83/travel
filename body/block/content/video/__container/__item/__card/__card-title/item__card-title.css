@@ -1,0 +1,15 @@
+.item__card-title {
+    width: 322px;
+    font-size: 36px;
+    line-height: 39px;
+    font-weight: 900;
+    color: white;
+    margin-top: 12px;
+}
+@media all and (max-width: 425px) {
+    .item__card-title {
+        width: 300px;
+        font-size: 24px;
+        line-height: 1.1;
+    }
+}

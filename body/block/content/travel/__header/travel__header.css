@@ -1,0 +1,13 @@
+@import url("./__title/travel__title.css");
+@import url("./__link/travel__link.css");
+.travel__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+@media all and (max-width: 425px) {
+    .travel__header{
+        width: 95%;
+    }
+}

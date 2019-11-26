@@ -1,0 +1,17 @@
+@import url("./__card/video__card.css");
+.video__item {
+    width: 49.2%;
+    border-radius: 6px;
+    text-decoration: none;
+    background-size: contain;
+    display: flex;
+}
+.video__item:hover {
+    opacity: 0.8;
+}
+@media all and (max-width: 740px) {
+    .video__item {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,12 @@
+.footer__author {
+    font-size: 14px;
+    line-height: 46px;
+    color: white;
+    font-weight: 400;
+    margin-left: auto;
+}
+@media all and (max-width: 750px) {
+    .footer__author {
+    width: 100%;
+    }
+}

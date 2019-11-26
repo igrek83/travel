@@ -1,0 +1,28 @@
+@import url("./__link/footer__link.css");
+@import url("./__author/footer__author.css");
+.footer {
+    width: 1184px;
+    padding-top: 155px;
+    padding-bottom: 48px;
+    display: flex;
+}
+@media all and (max-width: 1300px) {
+    .footer {
+        width: 93%;
+    }
+}
+@media all and (max-width: 768px) {
+    .footer {
+        width: 94%;
+        padding-top: 100px;
+        padding-bottom: 24px;
+    }
+}
+@media all and (max-width: 750px) {
+    .footer {
+        width: 92%;
+        padding-top: 40px;
+        padding-bottom: 24px;
+        flex-direction: column;
+    }
+}

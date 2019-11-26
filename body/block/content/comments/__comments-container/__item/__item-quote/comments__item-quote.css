@@ -1,0 +1,13 @@
+.comments__item-quote {
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 37px;
+}
+@media all and (max-width: 768px) {
+    .comments__item-quote {
+        font-size: 16px;
+        order: 3;
+        padding-top: 1.5em;
+    }
+}

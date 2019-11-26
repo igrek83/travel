@@ -1,0 +1,32 @@
+.video__content-title {
+    width: 9.6em;
+    font-size: 72px;
+    line-height: 1.1;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+@media all and (max-width: 1024px) {
+    .video__content-title {
+        line-height: 0.9;
+    }
+}
+@media all and (max-width: 768px) {
+    .video__content-title {
+        width: 9.6em;
+        font-size: 42px;
+        line-height: 1.1;
+    }
+}
+@media all and (max-width: 425px) {
+    .video__content-title {
+        width: 9.6em;
+        font-size: 32px;
+        line-height: 1.1;
+    }
+}
+@media all and (max-width: 325px) {
+    .video__content-title {
+        width: 90%;
+    }
+}

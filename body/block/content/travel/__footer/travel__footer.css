@@ -1,0 +1,22 @@
+@import url("./__image/travel__image.css");
+@import url("./__description/travel__description.css");
+.travel__footer {
+    width: 984px;
+    margin-top: 53px;
+    margin-bottom: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+@media all and (max-width: 1024px) {
+    .travel__footer {
+        width: 100%; 
+    }
+}
+@media all and (max-width: 620px) {
+    .travel__footer {
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+}

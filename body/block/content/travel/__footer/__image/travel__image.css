@@ -1,0 +1,20 @@
+.travel__image {
+    width: 47%;
+    object-fit: contain;
+}
+@media all and (max-width: 1024px) {
+    .travel__image {
+        width: 49%;
+        object-fit: contain;
+    }
+}
+@media all and (max-width: 768px) {
+    .travel__image {
+        width: 48%;
+    }
+}
+@media all and (max-width: 620px) {
+    .travel__image {
+        width: 100%;
+    }
+}

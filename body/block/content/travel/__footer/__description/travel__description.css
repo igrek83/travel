@@ -1,0 +1,19 @@
+@import url("./__description-text/travel__description-text.css");
+.travel__description {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+@media all and (max-width: 768px) {
+    .travel__description {
+        width: 50%;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+}
+@media all and (max-width: 620px) {
+    .travel__description {
+        width: 100%;
+        align-items: center;
+    }
+}

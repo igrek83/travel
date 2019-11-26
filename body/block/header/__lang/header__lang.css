@@ -1,0 +1,7 @@
+@import url("./__lang-item/header__lang-item.css");
+@import url("./__lang-item/header__lang-item_current.css");
+.header__lang {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    display: flex;
+}

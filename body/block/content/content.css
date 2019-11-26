@@ -1,0 +1,15 @@
+@import url("./lead/lead.css");
+@import url("./intro/intro.css");
+@import url("./photo/photo.css");
+@import url("./cover/cover.css");
+@import url("./cover/cover__theme_depo.css");
+@import url("./comments/comments.css");
+@import url("./video/video.css");
+@import url("./travel/travel.css");
+.content {
+    width: 100%;
+    margin: 0, auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }

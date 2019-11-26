@@ -1,0 +1,29 @@
+.comments__title {
+    width: 11em;
+    font-size: 70px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+@media all and (max-width: 1024px) {
+    .comments__title {
+        width: 90%;
+        line-height: 64px;
+    }
+}
+@media all and (max-width: 768px) {
+    .comments__title {
+        width: 100%;
+        font-size: 42px;
+        line-height: 1.1;
+    }
+}
+@media all and (max-width: 425px) {
+    .comments__title {
+        width: 100%;
+        font-size: 32px;
+        line-height: 1.1;
+    }
+}

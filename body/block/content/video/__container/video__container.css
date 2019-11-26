@@ -1,0 +1,13 @@
+@import url("./__item/video__item.css");
+@import url("./__item/video__item_theme_kamchatka.css");
+@import url("./__item/video__item_theme_observatory.css");
+.video__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+@media all and (max-width: 740px) {
+    .video__container {
+    flex-direction: column;
+    }
+}

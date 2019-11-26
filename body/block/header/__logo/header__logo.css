@@ -1,0 +1,9 @@
+.header__logo {
+    width: 176px;
+    height: auto;
+}
+@media all and (width: 425px) {
+    .header__logo {
+        width: 142px;
+    }
+}

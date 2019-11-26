@@ -1,0 +1,13 @@
+.comments__quote-author {
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+@media all and (max-width: 768px) {
+    .comments__quote-author {
+        order: 2;
+        margin-top: 0.3rem;
+    }
+}

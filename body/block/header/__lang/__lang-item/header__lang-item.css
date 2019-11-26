@@ -1,0 +1,6 @@
+.header__lang-item {
+    color: white;
+}
+.header__lang-item:hover {
+    opacity: 0.7;
+}

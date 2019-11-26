@@ -1,0 +1,31 @@
+@import url("./__image/photo__image.css");
+.photo {
+    width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 1rem;
+}
+@media all and (max-width: 1220px) {
+    .photo {
+        width: 93%;
+    }
+}
+@media all and (max-width: 1024px) {
+    .photo {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+}
+@media all and (max-width: 768px) {
+    .photo {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+    }
+}
+@media all and (max-width: 425px) {
+    .photo {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, auto);
+    }
+}

@@ -1,0 +1,25 @@
+@import url("./__header/travel__header.css");
+@import url("./__footer/travel__footer.css");
+.travel {
+    width: 984px;
+    padding-top: 101px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+}
+@media all and (max-width: 1024px) {
+    .travel {
+        width: 91%;
+    }
+}
+@media all and (max-width: 768px) {
+    .travel {
+        width: 96%;
+    }
+}
+@media all and (max-width: 425px) {
+    .travel {
+        width: 100%;
+        align-items: center;
+    }
+}
